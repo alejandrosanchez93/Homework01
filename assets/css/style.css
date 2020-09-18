@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*  */
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* changes color of all <a> tags */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* changes font for all paragraphs */
+
+p {
+    font-size: 16px;
+}
+
+/* navigation bar at top of the website */
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* changes display and font size for header class and h1 */
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Name of the website up on the left hand side of the navigation bar */
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* changed non-semantic element (div) to semantic element (section)
+   adds padding, margins, float and font styles
+*/
+
+.header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* changed non-semantic element (div) to semantic element (section) */
+
+.header section ul {
+    list-style-type: none;
+}
+
+/* changed non-semantic element (div) to semantic element (section) */
+
+.header section ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+
+/* changes height, background size, image, and position for hero class */
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* floats first and last article to the left with a 25px margin to the right */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* floats first and last article to the left with a 25px margin to the right */
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Section holding articles */
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* benefits section holds articles and floats to the right side of the page
+    with a right margin of 20px, padding 20px 
+*/
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* three articles on side bar with a bottom margin of 32px */
+
+.sideBarBenefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* three headers for the articles on the side bar with a bottom margin of 10px and center text-align  */
+
+.sideBarBenefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* side bar images with block display */
+
+.sideBarBenefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* three articles section in the middle of webpage */
+
+.navBarArticles {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* three images for the three articles in the middle of the webpage */
+
+.navBarArticles img {
+    max-height: 200px;
+}
+
+/* three h2 for the three articles in the middle of the webpage */
+
+.navBarArticles h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Footer */
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* footer heading */
+
+.footer h2 {
+    font-size: 20px;
+}
